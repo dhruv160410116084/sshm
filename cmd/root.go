@@ -23,6 +23,9 @@ type ConList struct {
 	List []SshCon
 }
 
+var SshIndexMap = make(map[int]SshCon)
+var SshShortMap = make(map[string]SshCon)
+
 var DATA_PATH string = ""
 var SshList ConList
 

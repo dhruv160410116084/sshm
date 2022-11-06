@@ -30,6 +30,16 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+brews:
+  -
+    name: dhruv160410116084
+    homepage: https://github.com/dhruv160410116084/sshm
+    tap: 
+      owner: dhruv160410116084
+      name: homebrew-dhruv160410116084
+    commit_author: 
+      name: dhruv
+      email: dhruv.160410116084@gmail.com
 
 # modelines, feel free to remove those if you don't want/use them:
 # yaml-language-server: $schema=https://goreleaser.com/static/schema.json

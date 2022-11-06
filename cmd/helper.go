@@ -32,6 +32,12 @@ func LoadData() ConList {
 		fmt.Println(err)
 	}
 	// fmt.Println(data)
+	for i, v := range data.List {
+		SshIndexMap[i] = v
+		SshShortMap[v.Shortcut] = v
+	}
+	// fmt.Println(SshIndexMap)
+	// fmt.Println(SshShortMap)
 	return data
 }
 

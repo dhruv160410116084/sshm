@@ -44,7 +44,7 @@ var addCmd = &cobra.Command{
 		env, err := promptEnv.Run()
 
 		promptCon := promptui.Prompt{
-			Label: "Enter ssh connection: ",
+			Label: "Enter ssh connection (No spaces): ",
 			Validate: func(s string) error {
 				if len(s) <= 4 {
 					return errors.New("Invalid ssh connnection")
