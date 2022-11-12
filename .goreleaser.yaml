@@ -32,7 +32,7 @@ changelog:
       - '^test:'
 brews:
   -
-    name: dhruv160410116084
+    name: sshm
     homepage: https://github.com/dhruv160410116084/sshm
     tap: 
       owner: dhruv160410116084
