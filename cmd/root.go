@@ -4,6 +4,7 @@ Copyright © 2022 NAME HERE <EMAIL ADDRESS>
 package cmd
 
 import (
+	"fmt"
 	"os"
 	"path"
 	"runtime"
@@ -43,6 +44,11 @@ var rootCmd = &cobra.Command{
 // Execute adds all child commands to the root command and sets flags appropriately.
 // This is called by main.main(). It only needs to happen once to the rootCmd.
 func Execute() {
+	mydir, erri := os.Getwd()
+	if erri != nil {
+		fmt.Println(erri)
+	}
+	fmt.Println("current working dir is : ", mydir)
 	_, filename, _, ok := runtime.Caller(0)
 	if !ok {
 		panic("No caller information")
