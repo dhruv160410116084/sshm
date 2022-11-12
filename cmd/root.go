@@ -55,7 +55,10 @@ func Execute() {
 	}
 	// fmt.Println(version)
 	// fmt.Printf("Filename : %q, Dir : %q\n", filename, path.Dir(filename))
-	DATA_PATH = path.Dir(filename) + "/data.json"
+	fmt.Println(path.Dir(filename))
+	// DATA_PATH = path.Dir(filename) + "/data.json"
+	DATA_PATH = "./data.json"
+
 	SshList = LoadData()
 	err := rootCmd.Execute()
 	if err != nil {
