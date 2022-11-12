@@ -25,6 +25,7 @@ type ConList struct {
 
 var SshIndexMap = make(map[int]SshCon)
 var SshShortMap = make(map[string]SshCon)
+var Version = "development"
 
 var DATA_PATH string = ""
 var SshList ConList
@@ -32,13 +33,8 @@ var SshList ConList
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "sshm",
-	Short: "A brief description of your application",
-	Long: `A longer description that spans multiple lines and likely contains
-examples and usage of using your application. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "sshm is a simple cli tool to manage your ssh connections",
+	Long:  `sshm is a simple cli tool to manage your ssh connections. You can add,edit and view the connection strings.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
@@ -51,6 +47,7 @@ func Execute() {
 	if !ok {
 		panic("No caller information")
 	}
+	// fmt.Println(version)
 	// fmt.Printf("Filename : %q, Dir : %q\n", filename, path.Dir(filename))
 	DATA_PATH = path.Dir(filename) + "/data.json"
 	SshList = LoadData()
@@ -69,5 +66,5 @@ func init() {
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
-	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	// rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }

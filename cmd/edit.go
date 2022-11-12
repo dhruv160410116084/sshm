@@ -14,7 +14,7 @@ import (
 // editCmd represents the edit command
 var editCmd = &cobra.Command{
 	Use:   "edit",
-	Short: "Edit ssh connection.",
+	Short: "Edit ssh connection",
 	Long: `Edit ssh connection
 		   sshm edit [index]
 		Example:

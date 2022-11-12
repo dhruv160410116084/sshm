@@ -13,8 +13,8 @@ import (
 // deleteCmd represents the delete command
 var deleteCmd = &cobra.Command{
 	Use:   "delete",
-	Short: "delete ssh connection from sshm list",
-	Long: `delete ssh connection from sshm list.
+	Short: "Delete ssh connection from sshm list",
+	Long: `Delete ssh connection from sshm list.
 			sshm delete index | shrotcut
 Example:
 		sshm delete 2
