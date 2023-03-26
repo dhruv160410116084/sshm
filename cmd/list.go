@@ -18,9 +18,10 @@ var listCmd = &cobra.Command{
 	Long: `This command will list your ssh connections list. For example:
 
 sshm list`,
+	// ValidArgs: []string{"fb", "google"},
 	Run: func(cmd *cobra.Command, args []string) {
 		// fmt.Println("list called")
-
+		// getConnection("st")
 		table := tablewriter.NewWriter(os.Stdout)
 		table.SetHeader([]string{"Index", "Project", "Env", "Shrotcut", "Con"})
 		table.SetAutoWrapText(false)

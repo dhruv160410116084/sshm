@@ -23,6 +23,13 @@ var connectCmd = &cobra.Command{
 	Example:
 			sshm connect 1
 			sshm connect fb-stage`,
+	ValidArgsFunction: func(cmd *cobra.Command, args []string, toComplete string) ([]string, cobra.ShellCompDirective) {
+		fmt.Println("in valid func")
+		if len(args) != 0 {
+			return nil, cobra.ShellCompDirectiveNoFileComp
+		}
+		return getConnection(toComplete), cobra.ShellCompDirectiveNoFileComp
+	},
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("connect called")
 		// command := exec.Command("ssh", "ubuntu@3.11.205.213")
@@ -48,7 +55,7 @@ var connectCmd = &cobra.Command{
 		command.Stderr = os.Stderr
 		e := command.Run()
 		if e != nil {
-			log.Fatal(err)
+			log.Fatal(e)
 		}
 
 	},

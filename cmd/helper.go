@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"regexp"
 )
 
 func LoadData() ConList {
@@ -67,4 +68,24 @@ func SaveData(data ConList) {
 		fmt.Println(err)
 	}
 
+}
+
+func getConnection(data string) []string {
+	// fmt.Println("in getConnection")
+	keys := []string{}
+	for k, _ := range SshShortMap {
+
+		m, err := regexp.MatchString(`.*`+data+`.*`, k)
+		if err != nil {
+			fmt.Println(err)
+		}
+		if m {
+			// fmt.Println("found: ", m, k)
+
+			keys = append(keys, k)
+		}
+	}
+	fmt.Println(keys)
+
+	return keys
 }

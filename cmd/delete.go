@@ -23,10 +23,6 @@ Example:
 
 		index, err := strconv.Atoi(args[0])
 		if err == nil && index < len(SshList.List) {
-
-			// SshList.List = append(SshList.List[:index], SshList.List[index+1:]...)
-			// s[i] = s[len(s)-1]
-			// return s[:len(s)-1]
 			SshList.List[index] = SshList.List[len(SshList.List)-1]
 			fmt.Println(SshList.List[index].Project, SshList.List[index].Env, "deleted")
 			SshList.List = SshList.List[:len(SshList.List)-1]
