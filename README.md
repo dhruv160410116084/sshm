@@ -40,4 +40,4 @@ I have used golang, <a href="https://github.com/spf13/cobra-cli"> cobra-cli </a>
  
 ## Authors
 
-* **Dhruv patel** - *Mern stack dev* - [Dhruv patel](https://githuhttps://github.com/dhruv160410116084b.com/ShaanCoding/) - **
+* **Dhruv patel** - *Mern stack dev* - [Dhruv patel](https://github.com/dhruv160410116084b.com/) - **
