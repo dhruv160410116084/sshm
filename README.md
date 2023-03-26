@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/dhruv160410116084/sshm">
-    <img src="https://edan-power.s3.amazonaws.com/9fw3z7489368zktck8-1679830761460.png" alt="Logo" width="80" height="80">
+    <img src="https://edan-power.s3.amazonaws.com/9fw3z7489368zktck8-1679830761460.png" alt="Logo" width="60" height="60">
   </a>
 
   <h3 align="center">SSHM (ssh cli manager)</h3>
