@@ -23,7 +23,7 @@ type ConList struct {
 
 var SshIndexMap = make(map[int]SshCon)
 var SshShortMap = make(map[string]SshCon)
-var Version = "v1.1.7"
+var Version = "v1.1.8"
 
 var DATA_PATH string = ""
 var SshList ConList
