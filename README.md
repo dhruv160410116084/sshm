@@ -34,6 +34,11 @@ The main reason for what i have created this project is that many times i have t
 
 I have used golang, <a href="https://github.com/spf13/cobra-cli"> cobra-cli </a>
 
+## Usage
+ add ssh connection
+ 
+ ![](https://github.com/dhruv160410116084/sshm/blob/master/docs/sshm-add.gif)
+ 
 ## Authors
 
 * **Dhruv patel** - *Mern stack dev* - [Dhruv patel](https://githuhttps://github.com/dhruv160410116084b.com/ShaanCoding/) - **
