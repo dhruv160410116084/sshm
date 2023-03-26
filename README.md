@@ -36,7 +36,7 @@ I have used golang, <a href="https://github.com/spf13/cobra-cli"> cobra-cli </a>
 
 ## Usage
  add ssh connection
- 
+ ![](https://github.com/dhruv160410116084/sshm/blob/master/docs/screen-recording-2023-03-26-at-111520-pm_xmJrUSoc_AdobeExpress.gif)
  ![](https://github.com/dhruv160410116084/sshm/blob/master/docs/sshm-add.gif)
  
 ## Authors
