@@ -35,9 +35,8 @@ The main reason for what i have created this project is that many times i have t
 I have used golang, <a href="https://github.com/spf13/cobra-cli"> cobra-cli </a>
 
 ## Usage
- add ssh connection
- ![](https://github.com/dhruv160410116084/sshm/blob/master/docs/screen-recording-2023-03-26-at-111520-pm_xmJrUSoc_AdobeExpress.gif)
- ![](https://github.com/dhruv160410116084/sshm/blob/master/docs/sshm-add.gif)
+
+![](https://edan-power.s3.amazonaws.com/h064l84666267y9psnl-1679855675904.gif)
  
 ## Authors
 
