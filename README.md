@@ -10,10 +10,6 @@
     Manges the ssh connections
     <br/>
     <br/>
-   
-    <br/>
-    <br/>
-  
     <a href="https://github.com/dhruv160410116084/sshm">Download</a>
     .
     <a href="https://github.com/dhruv160410116084/sshm/issues">Report Bug</a>
@@ -29,7 +25,6 @@
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
 * [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
@@ -37,11 +32,7 @@ The main reason for what i have created this project is that many times i have t
 
 ## Built With
 
-I have used golang, cobra-cli
-
-### Creating A Pull Request
-
-
+I have used golang, <a href="https://github.com/spf13/cobra-cli"> cobra-cli </a>
 
 ## Authors
 
