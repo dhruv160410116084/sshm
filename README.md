@@ -28,7 +28,7 @@
 
 ## About The Project
 
-The main reason for what i have created this project is that many times i have to work with different projects along with different environments. And it can be cumbersome to store different ssh connection string in file. So i created this project.
+The main reason for why i have created this project is that many times i have to work with different projects along with different environments. And it can be cumbersome to store different ssh connection string in file. So i created this project.
 
 ## Built With
 
