@@ -24,6 +24,8 @@
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
+* [Usage](#usage)
+* [Install Via brew](#install-via-brew)
 * [Authors](#authors)
 
 ## About The Project
@@ -37,7 +39,13 @@ I have used golang, <a href="https://github.com/spf13/cobra-cli"> cobra-cli </a>
 ## Usage
 
 ![](https://edan-power.s3.amazonaws.com/h064l84666267y9psnl-1679855675904.gif)
+
+## Install Via brew
+
+ `brew tap dhruv160410116084/dhruv160410116084` <br/>
+ `brew install sshm`
  
+ You can also download binary for Linux, Mac & Windows <a href="https://github.com/dhruv160410116084/sshm/releases"> here <a>
 ## Authors
 
 * **Dhruv patel** - *Mern stack dev* - [Dhruv patel](https://github.com/dhruv160410116084/) - **
