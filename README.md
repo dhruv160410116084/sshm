@@ -18,7 +18,7 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/dhruv160410116084/sshm/total) ![Contributors](https://img.shields.io/github/contributors/dhruv160410116084/sshm?color=dark-green) ![Issues](https://img.shields.io/github/issues/dhruv160410116084/sshm) ![License](https://img.shields.io/github/license/dhruv160410116084/sshm) 
+![Downloads](https://img.shields.io/github/downloads/dhruv160410116084/sshm/total) ![Contributors](https://img.shields.io/github/contributors/dhruv160410116084/sshm?color=dark-green) ![Issues](https://img.shields.io/github/issues/dhruv160410116084/sshm) 
 
 ## Table Of Contents
 
